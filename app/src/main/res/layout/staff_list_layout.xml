@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/edittext_log_in"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:id="@+id/eee"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/student_profile"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/img"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty Name"
+        android:layout_toRightOf="@+id/img"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/worksans_medium"
+        android:id="@+id/staffName"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/staffName"
+        android:id="@+id/staffEmail"
+        android:text="Faculty Email"
+        android:fontFamily="@font/worksans_regular"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Staff Number"
+        android:layout_below="@+id/staffEmail"
+        android:layout_alignLeft="@+id/staffEmail"
+        android:fontFamily="@font/worksans_medium"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/staffNumber"
+        />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/delete_img"
+        android:layout_alignBottom="@+id/staffEmail"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imgDelete"
+        />
+
+
+
+</RelativeLayout>

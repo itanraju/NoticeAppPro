@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context=".StudentRegister">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qqq"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/layout_log_in"
+        >
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Full Name"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="20dp"
+            android:inputType="text"
+            android:background="@drawable/edittext_log_in"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:id="@+id/edtName"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/edtName"
+            android:layout_marginTop="25dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/worksans_regular"
+            android:hint="GR Number"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/edittext_log_in"
+            android:textAlignment="center"
+            android:id="@+id/edtNumber"
+            />
+
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/edtNumber"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edittext_log_in"
+            android:layout_centerHorizontal="true"
+            android:hint="Email"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:id="@+id/edtEmail"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_log_in"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:fontFamily="@font/worksans_regular"
+            android:layout_below="@id/edtEmail"
+            android:id="@+id/edtPass"
+            android:layout_marginTop="25dp"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Confirm Password"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_log_in"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:fontFamily="@font/worksans_regular"
+            android:layout_below="@id/edtPass"
+            android:id="@+id/edtConfirmPass"
+            android:layout_marginTop="25dp"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="REGISTER"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/edtConfirmPass"
+            android:background="@drawable/btn_log_in"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:fontFamily="@font/worksans_regular"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnRegister"
+            android:layout_marginBottom="30dp"
+            />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Log In"
+        android:id="@+id/btnBack"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        android:layout_below="@+id/qqq"
+        android:layout_alignRight="@+id/qqq"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/worksans_regular"
+        />
+
+</RelativeLayout>

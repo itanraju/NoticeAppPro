@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/edittext_log_in"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:id="@+id/eee"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/student_profile"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/img"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty Name"
+        android:layout_toRightOf="@+id/img"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/worksans_medium"
+        android:id="@+id/name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/name"
+        android:id="@+id/post"
+        android:text="Faculty Post"
+        android:fontFamily="@font/worksans_regular"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post"
+        android:id="@+id/experience"
+        android:layout_toRightOf="@+id/img"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:text="Faculty Experience"
+        android:fontFamily="@font/worksans_regular"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/experience"
+        android:id="@+id/skills"
+        android:layout_toRightOf="@+id/img"
+        android:layout_marginLeft="10dp"
+        android:text="Faculty Skills"
+        android:fontFamily="@font/worksans_regular"
+        android:textSize="16dp"
+        android:layout_marginBottom="8dp"
+        />
+
+
+
+</RelativeLayout>

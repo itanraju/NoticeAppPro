@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".StudentLogin">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/qq"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/layout_log_in"
+        >
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/edittext_log_in"
+            android:id="@+id/edtEmail"
+            android:inputType="text"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="20dp"
+            android:hint="Email"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edtEmail"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPassword"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:hint="Password"
+            android:background="@drawable/edittext_log_in"
+            android:textAlignment="center"
+            android:id="@+id/edtPass"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Forgot Password ?"
+            android:fontFamily="@font/worksans_regular"
+            android:layout_below="@+id/btnLogIn"
+            android:layout_alignRight="@+id/edtPass"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/forgotPass"
+            />
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="20dp"
+            android:background="@drawable/btn_log_in"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:text="LOG IN"
+            android:layout_below="@+id/edtPass"
+            android:layout_marginTop="30dp"
+            android:id="@+id/btnLogIn"
+            />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/btnRegister"
+        android:text="Don't Have An Account? Register"
+        android:layout_below="@+id/qq"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#fff"
+        android:layout_alignRight="@+id/qq"
+        android:fontFamily="@font/worksans_regular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Register For Staff"
+        android:fontFamily="@font/worksans_regular"
+        android:textColor="#fff"
+        android:layout_alignRight="@+id/qq"
+        android:layout_marginRight="5dp"
+        android:id="@+id/btnRegisterStaff"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+
+</RelativeLayout>

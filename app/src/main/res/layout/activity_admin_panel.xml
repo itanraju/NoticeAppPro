@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_background"
+    android:gravity="center"
+    tools:context=".UploadPost">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/aaaaa"
+        android:background="@drawable/layout_log_in"
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notice"
+            android:background="@drawable/btn_log_in"
+            android:textColor="#fff"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnNotice"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study Material"
+            android:background="@drawable/btn_log_in"
+            android:textColor="#fff"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnMaterial"
+            android:layout_below="@+id/btnNotice"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance Report"
+            android:background="@drawable/btn_log_in"
+            android:textColor="#fff"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnReport"
+            android:layout_below="@+id/btnMaterial"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Staff List"
+            android:background="@drawable/btn_log_in"
+            android:textColor="#fff"
+            android:fontFamily="@font/worksans_regular"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnStaffList"
+            android:layout_below="@+id/btnReport"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnStaffList"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_log_in"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:text="Student List"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/worksans_regular"
+            android:id="@+id/btnStudentList"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

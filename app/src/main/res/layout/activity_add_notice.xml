@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_background"
+    android:gravity="center"
+    tools:context=".AddNotice">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zz"
+        android:textSize="22dp"
+        android:textColor="#fff"
+        android:text="ADD NOTICE"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/worksans_medium"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_log_in"
+        android:layout_marginRight="10dp"
+        android:id="@+id/zz"
+        android:layout_marginLeft="10dp"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/study_material"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/noticeImg"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/select"
+            android:layout_below="@+id/noticeImg"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edittext_log_in"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/worksans_regular"
+            android:text="Select Photo"
+            android:textSize="20dp"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/select"
+            android:hint="Add Notice Title"
+            android:textAlignment="center"
+            android:fontFamily="@font/worksans_regular"
+            android:background="@drawable/edittext_log_in"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/noticeTitle"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btnAdd"
+            android:layout_below="@+id/noticeTitle"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_log_in"
+            android:layout_marginTop="20dp"
+            android:text="Add Notice"
+            android:fontFamily="@font/worksans_regular"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:id="@+id/noticeImg"-->
+<!--        android:src="@drawable/ic_launcher_background"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_below="@+id/noticeImg"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:hint="TITLE"-->
+<!--        android:textAlignment="center"-->
+<!--        android:id="@+id/noticeTitle"-->
+<!--        />-->
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/btnAdd"-->
+<!--        android:text="ADD"-->
+<!--        android:layout_below="@+id/noticeTitle"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        />-->
+
+

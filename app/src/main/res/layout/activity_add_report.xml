@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/add_background"
+    android:gravity="center"
+    tools:context=".AddReport">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zzz"
+        android:textSize="22dp"
+        android:textColor="#fff"
+        android:text="ADD ATTENDENCE REPORT"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/worksans_medium"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zzz"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/layout_log_in"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/report"
+            android:layout_marginTop="20dp"
+            android:id="@+id/materialImg"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File Name"
+            android:textSize="16dp"
+            android:layout_below="@+id/materialImg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/worksans_regular"
+            android:id="@+id/reportName"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/reportName"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_log_in"
+            android:text="Select Attendence Report"
+            android:textSize="18dp"
+            android:fontFamily="@font/worksans_regular"
+            android:id="@+id/btnSelect"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="18dp"
+            android:layout_below="@+id/btnSelect"
+            android:background="@drawable/edittext_log_in"
+            android:fontFamily="@font/worksans_regular"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="Add Title"
+            android:textAlignment="center"
+            android:id="@+id/reportTitle"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/reportTitle"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_log_in"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="ADD ATTENDENCE REPORT"
+            android:textColor="#fff"
+            android:fontFamily="@font/worksans_regular"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/btnUpload"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SELECT"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:id="@+id/btnSelect"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        android:text="FILE NAME"-->
+<!--        android:textAlignment="center"-->
+<!--        android:id="@+id/reportName"-->
+<!--        />-->
+
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="TITLE"-->
+<!--        android:textAlignment="center"-->
+<!--        android:layout_marginTop="300dp"-->
+<!--        android:id="@+id/reportTitle"-->
+<!--        />-->
+
+
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="UPLOAD"-->
+<!--        android:layout_marginTop="400dp"-->
+<!--        android:id="@+id/btnUpload"-->
+<!--        />-->
+
